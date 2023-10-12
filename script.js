@@ -64,7 +64,7 @@ function search(){
     
 }
 
-document.querySelector('input[type=button]').addEventListener("click", search);
+document.querySelector('input[type=button]').addEventListener("click", search)
 
 function createP(text){
     let p = document.createElement("p")
